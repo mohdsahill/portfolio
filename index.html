@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mohammed Sahil | Full Stack Web Developer</title>
+<meta name="description" content="Portfolio of Mohammed Sahil, BCA student and aspiring Full Stack Web Developer." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="#home" class="nav-logo">MS<span class="dot">.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#education" class="nav-link" data-section="education">Education</a>
+      <a href="#goals" class="nav-link" data-section="goals">Goals</a>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+<!-- ============ HERO SECTION ============ -->
+<section class="hero" id="home">
+  <div class="hero-container">
+    <div class="hero-text reveal">
+      <p class="hero-eyebrow">Hello, I'm</p>
+      <h1 class="hero-name gradient-text">Mohammed Sahil</h1>
+      <h2 class="hero-role">
+        <span id="typedText"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-intro">
+        I'm a passionate BCA student who enjoys building modern, interactive websites and
+        continuously learning new technologies. I'm currently focused on becoming a Full
+        Stack Web Developer by mastering HTML, CSS, JavaScript, React, Node.js, Express.js,
+        and MongoDB. I'm looking for opportunities where I can grow as a developer.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="resume.pdf" download class="btn btn-primary ripple">
+          Download Resume
+        </a>
+        <a href="#contact" class="btn btn-secondary ripple">
+          Contact Me
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="2">0</span><span class="stat-plus">+</span>
+          <p class="stat-label">Projects Built</p>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+          <p class="stat-label">Technologies</p>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+          <p class="stat-label">Dedication</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-image reveal">
+      <div class="hero-image-glow"></div>
+      <div class="hero-image-frame">
+        <img src="WhatsApp Image 2026-07-07 at 5.00.39 PM.jpeg" alt="Mohammed Sahil" class="profile-img" />
+      </div>
+      <span class="orbit-badge badge-1">HTML</span>
+      <span class="orbit-badge badge-2">CSS</span>
+      <span class="orbit-badge badge-3">JS</span>
+      <span class="orbit-badge badge-4">React</span>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-down" aria-label="Scroll down">
+  </a>
+</section>
+
+<!-- ============ ABOUT SECTION ============ -->
+<section class="about" id="about">
+  <div class="section-container">
+    <p class="section-eyebrow reveal">Get to know me</p>
+    <h2 class="section-title reveal">About <span class="gradient-text">Me</span></h2>
+
+    <div class="about-grid">
+      <div class="about-card glass reveal">
+        <ul class="about-list">
+          <li><span class="check">✓</span> BCA Student</li>
+          <li><span class="check">✓</span> Passionate about coding and web development</li>
+          <li><span class="check">✓</span> Currently learning Full Stack Development</li>
+          <li><span class="check">✓</span> Love building interactive websites</li>
+          <li><span class="check">✓</span> Enjoy solving programming problems</li>
+          <li><span class="check">✓</span> Looking for internship opportunities</li>
+        </ul>
+      </div>
+
+      <div class="about-visual reveal">
+        <div class="about-card glass code-card">
+          <div class="code-header">
+            <span class="code-dot red"></span>
+            <span class="code-dot yellow"></span>
+            <span class="code-dot green"></span>
+            <span class="code-title">about-me.js</span>
+          </div>
+          <pre class="code-body"><code><span class="code-key">const</span> <span class="code-var">developer</span> = {
+  <span class="code-prop">name</span>: <span class="code-string">"Mohammed Sahil"</span>,
+  <span class="code-prop">role</span>: <span class="code-string">"BCA Student"</span>,
+  <span class="code-prop">status</span>: <span class="code-string">"Learning Full Stack"</span>,
+  <span class="code-prop">passion</span>: <span class="code-string">"Building cool stuff"</span>,
+  <span class="code-prop">openTo</span>: <span class="code-string">"Internships"</span>,
+};</code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS SECTION ============ -->
+<section class="skills" id="skills">
+  <div class="section-container">
+    <p class="section-eyebrow reveal">What I work with</p>
+    <h2 class="section-title reveal">My <span class="gradient-text">Skills</span></h2>
+
+    <div class="skills-grid">
+      <div class="skill-category glass reveal">
+        <h3 class="skill-cat-title">Frontend</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skill-category glass reveal">
+        <h3 class="skill-cat-title">Tools</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+        </div>
+      </div>
+
+      <div class="skill-category glass reveal">
+        <h3 class="skill-cat-title">Currently Learning</h3>
+        <div class="skill-tags">
+          <span class="skill-tag learning">React</span>
+          <span class="skill-tag learning">Node.js</span>
+          <span class="skill-tag learning">Express.js</span>
+          <span class="skill-tag learning">MongoDB</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS SECTION ============ -->
+<section class="projects" id="projects">
+  <div class="section-container">
+    <p class="section-eyebrow reveal">What I've built</p>
+    <h2 class="section-title reveal">My <span class="gradient-text">Projects</span></h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card glass reveal">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <span>Portfolio</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Personal Portfolio Website</h3>
+          <p class="project-desc">A premium, responsive portfolio built with pure HTML, CSS and JavaScript to showcase my journey as a developer.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-small">GitHub</a>
+            <a href="#" class="btn-small btn-small-filled">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <span>Expense Tracker</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-desc">A modern expense tracker that helps users manage income and expenses with real-time balance updates and persistent local storage.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-small">GitHub</a>
+            <a href="#" class="btn-small btn-small-filled">Live Demo</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card glass reveal coming-soon">
+        <div class="project-image">
+          <div class="project-placeholder">
+            <span>+ More</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <h3 class="project-title">More Projects <span class="badge-soon">Coming Soon</span></h3>
+          <p class="project-desc">I'm constantly building and learning — more projects will be added here soon.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-small disabled">GitHub</a>
+            <a href="#" class="btn-small btn-small-filled disabled">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION SECTION ============ -->
+<section class="education" id="education">
+  <div class="section-container">
+    <p class="section-eyebrow reveal">My academic path</p>
+    <h2 class="section-title reveal">Education</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-tag">completed</span>
+          <h3 class="timeline-title">Higher Secondary Education (Computer Science)</h3>
+          <p class="timeline-desc">Completed Higher Secondary education with a specialization in Computer Science, where I built a strong foundation in programming concepts, computer fundamentals, and problem-solving skills that sparked my interest in web development.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content glass">
+          <span class="timeline-tag">completed</span>
+          <h3 class="timeline-title">Bachelor of Computer Applications (BCA)</h3>
+          <p class="timeline-desc">Completed my Bachelor's degree in Computer Applications (BCA) and am continuously learning modern web development technologies while building real-world projects.</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- ============ GOALS SECTION ============ -->
+<section class="goals" id="goals">
+  <div class="section-container">
+    <p class="section-eyebrow reveal">Where I'm headed</p>
+    <h2 class="section-title reveal">My <span class="gradient-text">Goals</span></h2>
+
+    <div class="goals-grid">
+      <div class="goal-card glass reveal">
+        <span class="goal-icon">✓</span>
+        <p>Become a Full Stack Developer</p>
+      </div>
+      <div class="goal-card glass reveal">
+        <span class="goal-icon">✓</span>
+        <p>Build Real-world Projects</p>
+      </div>
+      <div class="goal-card glass reveal">
+        <span class="goal-icon">✓</span>
+        <p>Learn Modern Technologies</p>
+      </div>
+      <div class="goal-card glass reveal">
+        <span class="goal-icon">✓</span>
+        <p>Get a Software Development Job</p>
+      </div>
+      <div class="goal-card glass reveal">
+        <span class="goal-icon">✓</span>
+        <p>Continuously Improve Programming Skills</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT SECTION ============ -->
+<section class="contact" id="contact">
+  <div class="section-container">
+    <p class="section-eyebrow reveal">Let's connect</p>
+    <h2 class="section-title reveal">Get In <span class="gradient-text">Touch</span></h2>
+    <p class="contact-sub reveal">Have an opportunity or just want to say hi? My inbox is always open.</p>
+
+    <div class="contact-grid">
+      <a href="mailto:mohammedsahill135@gmail.com" class="contact-card glass reveal">
+        <span class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z" stroke-linejoin="round"/><path d="m4 6 8 7 8-7" stroke-linejoin="round"/></svg>
+        </span>
+        <div>
+          <h3>Email</h3>
+          <p>mohammedsahill135@gmail.com</p>
+        </div>
+      </a>
+
+      <a href="tel:+917907204536" class="contact-card glass reveal">
+        <span class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke-linejoin="round"/></svg>
+        </span>
+        <div>
+          <h3>Phone</h3>
+          <p>+91 79072 04536</p>
+        </div>
+      </a>
+
+      <a href="https://github.com/" target="_blank" rel="noopener" class="contact-card glass reveal">
+        <span class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55v-2.15c-3.17.69-3.84-1.36-3.84-1.36-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.74 2.68 1.24 3.34.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.18-3.06-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.17a10.9 10.9 0 0 1 5.74 0c2.19-1.48 3.15-1.17 3.15-1.17.62 1.58.23 2.75.11 3.04.74.8 1.18 1.82 1.18 3.06 0 4.37-2.66 5.34-5.2 5.62.41.36.77 1.06.77 2.14v3.17c0 .31.21.66.79.55A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z"/></svg>
+        </span>
+        <div>
+          <h3>GitHub</h3>
+          <p>github.com/mohammedsahil</p>
+        </div>
+      </a>
+
+      <a href="www.linkedin.com/in/mohammed-sahil-09a90b24a" target="_blank" rel="noopener" class="contact-card glass reveal">
+        <span class="contact-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6.5 0H14v1.64h.06c.56-1.04 1.92-2.14 3.95-2.14 4.22 0 5 2.78 5 6.4V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9Z"/></svg>
+        </span>
+        <div>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/mohammedsahil</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="section-container footer-inner">
+    <p>&copy; 2026 Mohammed Sahil. All rights reserved.</p>
+    <p class="footer-built">Built with HTML, CSS &amp; JavaScript</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
